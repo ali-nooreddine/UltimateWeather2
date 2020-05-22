@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ali.ultimateweather">
+    package="com.sachimi.ultweather">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
-        <activity android:name="com.ali.ultimateweather.ui.SplashActivity"
+        <activity android:name="com.sachimi.ultweather.ui.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.ali.ultimateweather.ui.MainActivity"/>
+        <activity android:name="com.sachimi.ultweather.ui.MainActivity"/>
 
 
     </application>
